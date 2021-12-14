@@ -1,0 +1,30 @@
+#lang scheme
+
+;map
+(define my-list '(1 2 3 4 5))
+(map add1 my-list) ;map le hace algo a todos los elementos de la lista
+(map number->string my-list)
+; hay mas operaciones de listas en el documento
+
+(filter even? my-list)
+(sort my-list >)
+
+;funciones anonimas
+(define (add2 x) (+ x 2))
+(map add2 '(1 2 3))
+
+;lambda (λ = ctrl + \)
+(lambda (x) (+ x 124))
+
+(map (λ  (x) (+ x 124)) '(1 2 3))
+
+(define foo (λ (x) x)) ;= (define (foo x) x)
+
+(let ([f (λ (x) x)])
+  (f 10))
+
+;funcion recursiva
+ (letrec ([fact (λ (n)
+                  (if (< n 2) 1
+                      (* n (fact (sub1 n)))))])
+(fact 10))

@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "game.Main",
+            "projectName": "tarea3_69d07d6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch garage",
+            "request": "launch",
+            "mainClass": "game.garage",
+            "projectName": "tarea3_69d07d6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch pruebaMain",
+            "request": "launch",
+            "mainClass": "game.pruebaMain",
+            "projectName": "tarea3_69d07d6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tutorial",
+            "request": "launch",
+            "mainClass": "tutorialJava.Tutorial",
+            "projectName": "tarea3_69d07d6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Vehiculo",
+            "request": "launch",
+            "mainClass": "tutorialpoo.Uso_Vehiculo",
+            "projectName": "tarea3_69d07d6c"
+        }
+    ]
+}
