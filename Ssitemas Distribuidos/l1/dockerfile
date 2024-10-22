@@ -1,0 +1,6 @@
+FROM golang:latest
+WORKDIR /app
+COPY centrals.go . 
+COPY go.mod . 
+RUN go build -o bin .
+ENTRYPOINT ["/app/bin"]

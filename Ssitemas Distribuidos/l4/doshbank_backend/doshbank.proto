@@ -1,0 +1,13 @@
+syntax = "proto3";
+package doshbank_backend;
+option go_package = "doshbank_backend/";
+
+message getCurrentRewardRequest { }
+
+message getCurrentRewardResponse {
+    int32 Reward = 1;
+}
+
+service DoshBank {
+    rpc GetCurrentReward(getCurrentRewardRequest) returns (getCurrentRewardResponse);
+}
