@@ -1,5 +1,7 @@
 .nav-bar {
   display: flex;
-  background-color: #ccc;
+  background-color: transparent; /* Quita el fondo */
   margin-bottom: 20px;
+  align-items: flex-end; /* Baja la barra de navegación */
+  justify-content: flex-start; /* Corre la barra de navegación a la izquierda */
 }

@@ -2,9 +2,16 @@
   display: inline-block;
   margin-right: 15px;
   padding: 8px;
+  color: grey; /* Cambia el color del texto a gris */
+  transition: color 0.3s ease; /* Añade una transición suave al cambiar el color */
+  text-decoration: none;
+
+  &:hover {
+    color: white; /* Cambia el color del texto a blanco al pasar el mouse */
+  }
 
   &--active {
-    background: #222;
+    background: none; /* Quita el fondo */
     color: white;
   }
 }

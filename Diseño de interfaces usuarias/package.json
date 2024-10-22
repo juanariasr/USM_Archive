@@ -1,11 +1,11 @@
 {
-  "name": "frontend-sample-app",
+  "name": "expofinder",
   "version": "0.1.0",
-  "description": "Basic Frontend Development Environment to start an app with Webpack",
+  "description": "",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexarenasf/frontend-sample-app"
+    "url": "https://github.com/alvnc1/ExpoFinder-DIU.git"
   },
   "scripts": {
     "prod": "webpack --mode=production",
@@ -16,11 +16,13 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.10.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.5",
-    "react-router-dom": "^6.4.0"
+    "react-router-dom": "^6.4.0",
+    "react-select": "^5.7.7"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",

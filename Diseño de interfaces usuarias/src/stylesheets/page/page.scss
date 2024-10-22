@@ -3,3 +3,154 @@
   padding: 20px;
   margin: 20px;
 }
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  height: 100vh;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+
+label, input, textarea {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.input-box {
+  height: 59px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.submit-button {
+  width: auto; 
+  background-color: #0074d9;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; 
+  margin-left: 40%;
+}
+
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el contenedor del párrafo */
+.parrafo-container {
+  background-color: #283744; /* Color de fondo azul */
+  border-radius: 10px; /* Bordes redondos */
+  padding: 10px; /* Espaciado interior */
+  color: #ffffff; /* Texto blanco */
+  width: fit-content; /* Se ajusta al contenido horizontalmente */
+  max-height: 50%; /* Altura máxima del 50% del contenedor padre */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido es largo */
+}
+
+.pmv-container {
+  
+}
+
+.pmv-item {
+  flex: auto;
+  vertical-align: top;   /* Alinea la parte superior del contenedor */
+  text-align: center;
+}
+
+.figmatitulo {
+  position: relative; /* O puedes usar 'absolute', 'fixed', etc. según tus necesidades */
+  top: auto; /* Ajusta la posición vertical según tus preferencias */
+  left: 7.5%; /* Ajusta la posición horizontal según tus preferencias */
+  /* Otros estilos que desees aplicar */
+}
+
+/* En tu archivo de estilos CSS o en línea de estilo en React */
+.figmaform-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Cambiado a align-items: flex-start para que las columnas no se centren verticalmente */
+  position: absolute;
+  top: auto; /* Ajusta la posición vertical según tus preferencias */
+  left: 7.5%; /* Ajusta la posición horizontal según tus preferencias */
+}
+
+.figmaform-column {
+  flex: 1;
+  margin-right: 30px; /* Ajusta el margen entre las columnas según tus preferencias */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.figmaform-input {
+  width: 800px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Ajusta el margen entre los inputs dentro de cada columna */
+}
+
+.figmaform-column-extra {
+  flex: 1;
+  margin-left: 30px; /* Ajusta el margen según tus preferencias */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinea los elementos al final de la columna */
+}
+
+
+.figmaform-input-label {
+  margin-bottom: 5px;
+}
+
+
+
+.asterisco-rojo{
+  content: '*';
+  color:red;
+}
+
+.figmaexaminar {
+  position: relative; /* O puedes usar 'absolute', 'fixed', etc. según tus necesidades */
+  top: 270px; /* Ajusta la posición vertical según tus preferencias */
+  left: 7.5%; /* Ajusta la posición horizontal según tus preferencias */
+  
+  /* Otros estilos que desees aplicar */
+}
+
+.figmaexaminar .examinar-input{
+  width: 86.5%;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}

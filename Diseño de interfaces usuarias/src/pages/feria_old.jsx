@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Image from '../assets/imagen.png';
-import Image1 from '../assets/motion.png';
-import Image2 from '../assets/cuisine.png';
-import Image3 from '../assets/readdy.png';
+import Image1 from '../assets/activate.png';
+import Image2 from '../assets/juno.png';
+import Image3 from '../assets/onstage.png';
 import NavBar from '../components/nav_bar';
 
-function Home() {
-  document.title = "XXXI Feria de Software USM"
+
+function FeriaOld() {
   const linkStyles = {
     textDecoration: 'none',
     color: 'inherit',
@@ -30,7 +29,6 @@ function Home() {
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: '50px',
-    position: 'relative',
   };
 
   const containerStyles = {
@@ -41,40 +39,41 @@ function Home() {
     <div style={containerStyles}>
       <div style={backgroundStyles}>
         <NavBar />
-        
       </div>
-      <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '88%', maxHeight: '480px', borderRadius:'8px'}} />
+      <div style={{ marginLeft: '180px', textDecoration: 'underline', textDecorationColor: '#FFFFFF' }}>
+        <h1>30° Feria de Software - 2022</h1>
+      </div>
       <div style={{
         display: 'flex',
         justifyContent: 'center',
         marginTop: '20px',
       }}>
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/mindfullmotion" style={{ ...linkStyles }}>
+          <Link to="/activate" style={{ ...linkStyles }}>
             <img src={Image1} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
-              <h2 style={{ margin: '0' }}>Mindfull Motion</h2>
-              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>mindfullmotion.feriadesoftware.cl</p>
+              <h2 style={{ margin: '0' }}>Activate</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>activate.feriadesoftware.cl</p>
             </div>
           </Link>
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/cuisinear" style={{ ...linkStyles }}>
+          <Link to="/junoapp" style={{ ...linkStyles }}>
             <img src={Image2} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
-              <h2 style={{ margin: '0' }}>CuisineAR</h2>
-              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>cuisinear.feriadesoftware.cl</p>
+              <h2 style={{ margin: '0' }}>Juno App</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>junoapp.feriadesoftware.cl</p>
             </div>
           </Link>
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/readdy" style={{ ...linkStyles }}>
+          <Link to="/onstage" style={{ ...linkStyles }}>
             <img src={Image3} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
-              <h2 style={{ margin: '0' }}>Readdy</h2>
-              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>readdy.feriadesoftware.cl</p>
+              <h2 style={{ margin: '0' }}>OnStage</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>onstage.feriadesoftware.cl</p>
             </div>
           </Link>
         </div>
@@ -83,4 +82,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default FeriaOld;
