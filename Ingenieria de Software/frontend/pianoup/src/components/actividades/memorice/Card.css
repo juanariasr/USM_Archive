@@ -1,0 +1,147 @@
+.app {
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container{
+  width: 1000px;
+  height: 600px;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card-image {
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+}
+
+.navbar_container {
+  margin: 3% auto;
+  padding: 5px;
+  }
+
+.btnReset {
+  background-color: lightgray;
+  color: black;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imgBd{
+  height: 50px;
+  width: 50px;
+}
+
+.lblImg{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.option-memorice-head{
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 30px;
+
+}
+
+.option-memorice{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnJugar{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.app-div-btn{
+  
+  display: flex;
+  height: 500px;
+  justify-items: center;
+  align-items: center;
+}
+
+input {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+
+.app-div-btn-volver{
+  background-color: lightgray;
+  color: black;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+.app-div-btn-volver:hover{
+  background-color: rgb(148, 146, 146);
+}
+
+@media only screen and (min-width: 1020px) {
+  .option-memorice-head {
+    margin-top: 90px;
+  }
+
+  .app-div-btn {
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+
+  .cards-container{
+    width: 800px;
+    height: 500px;
+  }
+
+  .card {
+    margin: 3px;
+    height: 37%;
+    width: 21%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .option-memorice-head {
+    margin-top: 90px;
+  }
+
+  .cards-container{
+    width: 800px;
+    height: 500px;
+  }
+
+  .card {
+    margin: 2px;
+    height: 37%;
+    width: 20%;
+  }
+
+  .app-div-btn {
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+}

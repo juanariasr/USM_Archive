@@ -1,0 +1,35 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.imgSound{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.imgSound:hover{
+   width: 200px;
+}
+.Allegro:hover{
+    width: 250px;
+}
+
+.elegant-text {
+    background-color: black; /* Color de fondo */
+    color: whitesmoke; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Borde redondeado */
+    font-family: "Arial", sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso del texto en negrita */
+    text-align: center; /* Alineación del texto al centro */
+    text-transform: uppercase; /* Transformar el texto a mayúsculas */
+  }
+
+.navbar_container {
+  margin: 3% auto;
+  padding: 5px;
+}
